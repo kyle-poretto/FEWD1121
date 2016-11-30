@@ -2,7 +2,14 @@ body {
 	background: black;
 	color: white;
 }
-
+li{
+	color: white;
+	list-style: none;
+}
 img{
 	border-radius: 50%;
+}
+a {
+	color: white;
+	text text-decoration: none;
 }
