@@ -1,0 +1,26 @@
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	height:100px;
+	width: 100px;
+}
+main {
+	height: 100px;
+	border: solid 1px black;
+	float: left;
+	width: 48%;
+}
+
+aside {
+	height: 100px;
+	border: solid 1px black;
+	float: left;
+	width: 48%;
+}
+
+footer {
+	clear: both;
+
+}

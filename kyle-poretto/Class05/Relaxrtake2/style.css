@@ -1,0 +1,150 @@
+body{
+	font-family: "Open Sans"
+}
+
+
+header{
+background-color: #033048;
+height: 100px;
+}
+
+h1{
+	color: white;
+	height: 35px;
+	font-weight: 800px;
+
+}
+
+h2{	
+	background-color: white;
+	padding: 0;
+
+
+}
+
+main {
+background-color: white;
+height: 100px;
+overflow: none;
+width: 60%
+
+}
+
+article{
+	overflow: hidden;
+	clear: none;
+	float: left;
+}
+aside{
+background-color: #f9e42e;
+height: 300px;
+clear: both;
+
+}
+footer{
+background-color: black;
+height: 100px;
+overflow: hidden;
+clear: both;
+}
+
+.container	{
+width: 960px;
+margin: 0 auto;
+
+}
+
+header h1 {
+float: left;
+color: white;
+margin-left: 20px;
+
+}
+
+
+nav  {
+float: right;
+display: inline-block;
+color: #f9e42e;
+
+}
+
+div nav a  {
+display: inline-block;
+font-size: 14px;
+color: #f9e42e;
+padding: 15px;
+
+}
+
+main article{
+float: left;
+width: 70%;
+height: 300px;
+background-color: gray;
+
+}
+
+main aside  {
+float: right;
+width: 25%;
+height: 300px;
+background-color: #f0efef;
+clear: none;
+
+}
+
+aside div{
+	overflow: none;
+}
+
+p  {
+	color: black;
+
+
+}
+
+aside p {
+text-align: center;
+overflow: hidden;
+}
+
+div a  {
+	font-weight: 300px;
+	display: block;
+	text-align: center;
+	margin: 10px;
+	text-decoration: none;
+	height: 24px;
+
+}
+
+.calltoaction {
+	background-color: blue;	
+}
+
+h3{
+	font-weight: 800px;
+	height: 32px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+h4  {
+	color: #f9e42e;
+	height: 125px;
+	font-weight: 800px;
+	text-align: center;
+	padding: 30px;
+	clear: none;
+}
+.socialone{
+	float: right;
+
+
+}
+
+.socialtwo{
+	float: left;
+
+}
