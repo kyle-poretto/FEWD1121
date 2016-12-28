@@ -1,4 +1,195 @@
-// FONT FAMILY HELPERS :)
-// font-family: 'Oswald', sans-serif;
-// font-family: 'Merriweather', serif;
-// font-family: 'Source Sans Pro', sans-serif;
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+.container {
+	width: 90%;
+	margin: auto 5px;
+	font-family: "Source Sans Pro";
+	overflow: hidden;
+}
+
+header {
+	background-color: black;
+	color: white;
+	border-bottom: solid 5px yellow;
+	border-bottom-color: yellow;
+	float: top;
+	overflow: hidden;
+
+}
+
+.headertwo{
+	background-color: #C6C6C6;
+}
+
+nav {
+	float: right;
+	width: 45%;
+	margin-top: 5px;
+	font-family: "Oswald";
+
+
+}
+ 
+h1 {
+	font-family: "Merriweather", serif;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	color: yellow;
+
+
+}
+
+a {
+	padding: 5px;
+	font-family: "Oswald";
+	display: inline-block;
+	text-decoration: none;
+	padding: 3%;	
+	color: white;
+
+}
+
+span{
+	text-decoration: line-through;
+	color: gray;
+
+}
+
+.are{
+	text-decoration: underline;
+	color: black;
+}
+
+h2 {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: "Oswald"
+	background-color: gray;
+}
+
+div {
+	overflow: hidden;
+}
+
+main {
+	background-image:url("../img/coworking.jpg");
+	background-size: cover;
+	height: 60%;
+	overflow: hidden;
+}
+.mainbox {
+	height: 50%;
+	opacity: .5;
+	background-color: white ;
+	width: 40%;
+	float: right;
+	margin: 10% 15% 5% 5%;
+	overflow: hidden;
+	box-shadow: .5;
+
+}
+
+h3 {
+	text-align: center;
+	font-family: "Oswald"
+}
+
+p {
+	text-align: center;
+	margin: 5px;
+}
+
+h4{
+	text-align: center;
+	padding: 
+}
+
+h5{
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+}
+
+.CTA {
+	width: 85%;
+	padding: 0% 15% 0% 15%;
+	overflow: hidden;
+	background-color: rgba(265, 265, 0, 1);
+}
+
+aside {
+	width: 98%;
+	margin: auto 5px;
+	font-family: "Source Sans Pro";
+	overflow: hidden;
+}
+
+.left {
+	float: left;
+	width: 30%;
+	height: 33%;
+}
+
+.middle {
+	float: left;
+	width: 30%;
+	height: 33%;
+
+}
+
+.right {
+	float: right;
+	width: 30%;
+	height: 33%;
+
+}
+
+footer {
+	background-color: black;
+	height: 5%;
+	clear: both;
+}
+
+.footertext {
+	color: white;
+	text-align: left;
+}
+
+button {
+	overflow: hidden;
+	height: 30px;
+	background: #C6C6C6;
+	font-weight: bold;
+	display: inline-block;
+
+}
+
+.asideCTA{
+	padding: 5%;
+	width: 80%;
+	height: 30px;
+	display: inline-block;
+	
+}
+
+h5 {
+	text-align: left;
+	font-weight: bold;
+}
+
+.asidepara {
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+
+
+
+
