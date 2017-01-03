@@ -2,6 +2,21 @@
 	margin: 0 auto;
 	width: 85%;
 }
+@media screen and (min-width: 1024px) {
+	.burger {
+		float: right;
+
+	}
+	h1 {
+		float: left;
+	}
+
+	.large-nav {
+		text-align: center;
+		display: inline;
+	}
+}
+
 
 header {
 	background-color: black;
@@ -28,3 +43,8 @@ header nav a {
 	font-size: 20px;
 	margin-left: 50px;
 }
+
+.burger {
+	visibility: hidden;
+}
+
