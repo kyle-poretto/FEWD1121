@@ -1,0 +1,29 @@
+h1 {
+	color: blue;
+
+}
+
+.far {
+	display: inline-block;
+	background-color: gray;
+	overflow: hidden;
+	
+}
+
+.cel {
+	display: inline-block;
+	height:25%;
+	width:10%;
+	background-color: gray;
+	overflow: hidden;
+
+}
+
+input {
+	font-family: Courier, monospace;
+	height: 2em;
+	width: 2em;
+	font-size: 2em;
+	color: black;
+
+}
