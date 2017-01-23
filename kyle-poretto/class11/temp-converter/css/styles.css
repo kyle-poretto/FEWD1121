@@ -1,29 +1,14 @@
-h1 {
-	color: blue;
-
+.Celsius{
+	 width: 33%;
+    margin: auto;
+    border: 3px solid blue;
+    display: inline-block;
 }
 
-.far {
-	display: inline-block;
-	background-color: gray;
-	overflow: hidden;
-	
+.Fahrenheit{
+	width: 33%;
+    margin: auto;
+    border: 3px solid blue;
+    display: inline-block;
 }
 
-.cel {
-	display: inline-block;
-	height:25%;
-	width:10%;
-	background-color: gray;
-	overflow: hidden;
-
-}
-
-input {
-	font-family: Courier, monospace;
-	height: 2em;
-	width: 2em;
-	font-size: 2em;
-	color: black;
-
-}

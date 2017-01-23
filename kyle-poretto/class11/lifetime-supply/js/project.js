@@ -27,4 +27,14 @@ click_me.onclick = function () {
 	solution.innerhtml = mySolution;
 	drink.innerhtml = myDrink;
 
+document.getElementsById('click-me').onclick = calculate;
+
+function calculate (){
+	var age = parseInt(document.getElementsById('age').value);
+	var max_age = parseInt(document.getElementsById('max-age').value);
+
+	var mySolution = (max_age - age) * myNumPerDay *365;
+
+	document.getElementsById('#solution').innerhtml = mysolution;
+	document.getElementsById('drink').innerhtml = item;
 }
